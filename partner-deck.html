@@ -65,7 +65,7 @@
   transition: var(--transition);
 }
 .why-card:hover { border-color: var(--accent); transform: translateY(-3px); }
-.why-icon { font-size: 1.6rem; margin-bottom: 12px; }
+.why-icon { margin-bottom: 12px; display: flex; align-items: center; }
 .why-card h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 8px; }
 .why-card p { color: var(--text-secondary); font-size: 0.92rem; line-height: 1.6; }
 
@@ -158,7 +158,7 @@
   background: var(--bg-card); border: 1px solid var(--border);
   border-radius: var(--radius); padding: 28px; text-align: center;
 }
-.payout-info-card .payout-icon { font-size: 1.8rem; margin-bottom: 12px; }
+.payout-info-card .payout-icon { margin-bottom: 12px; display: flex; align-items: center; justify-content: center; }
 .payout-info-card h4 { font-size: 1rem; font-weight: 700; margin-bottom: 6px; }
 .payout-info-card p { color: var(--text-secondary); font-size: 0.9rem; }
 
@@ -415,7 +415,7 @@
         <p>Commissions are calculated and paid out on the 1st of every month for the prior period.</p>
       </div>
       <div class="payout-info-card">
-        <div class="payout-icon"><i data-lucide="ban" class="lucide-icon"></i></div>
+        <div class="payout-icon"><i data-lucide="badge-check" class="lucide-icon"></i></div>
         <h4>No Minimum Threshold</h4>
         <p>No minimum earning required to receive your payout. Earned $5? It's yours.</p>
       </div>
