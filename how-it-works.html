@@ -12,6 +12,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
 </head>
 <body>
 
@@ -29,7 +30,7 @@
         <li><a href="https://fundedxyz.com" class="nav-cta">Start Challenge</a></li>
       </ul>
     </nav>
-    <button class="mobile-toggle" aria-label="Menu">☰</button>
+    <button class="mobile-toggle" aria-label="Menu"><i data-lucide="menu" class="lucide-icon"></i></button>
   </div>
 </header>
 
@@ -96,32 +97,32 @@
     <div class="section-subtitle fade-in">Built for serious crypto traders who want fair rules and real capital</div>
     <div class="cards-grid fade-in">
       <div class="card">
-        <div class="card-icon">⏱️</div>
+        <div class="card-icon"><i data-lucide="timer" class="lucide-icon"></i></div>
         <h3>No Time Limits</h3>
         <p>Take as long as you need to pass the evaluation. We believe great traders shouldn't be rushed by arbitrary deadlines.</p>
       </div>
       <div class="card">
-        <div class="card-icon">💰</div>
+        <div class="card-icon"><i data-lucide="wallet" class="lucide-icon"></i></div>
         <h3>Up to 90% Profit Split</h3>
         <p>One of the highest profit splits in the industry. You do the trading, you keep the lion's share of the profits.</p>
       </div>
       <div class="card">
-        <div class="card-icon">⚡</div>
+        <div class="card-icon"><i data-lucide="zap" class="lucide-icon"></i></div>
         <h3>Single-Phase Challenge</h3>
         <p>No multi-step evaluations. Pass one challenge and you're funded. Simple, transparent, and efficient.</p>
       </div>
       <div class="card">
-        <div class="card-icon">📈</div>
+        <div class="card-icon"><i data-lucide="trending-up" class="lucide-icon"></i></div>
         <h3>5x Leverage</h3>
         <p>Trade crypto with up to 5x leverage to amplify your returns while managing risk within our parameters.</p>
       </div>
       <div class="card">
-        <div class="card-icon">🏦</div>
+        <div class="card-icon"><i data-lucide="landmark" class="lucide-icon"></i></div>
         <h3>Real Capital</h3>
         <p>Backed by VC and hedge fund capital. We're built to scale with real liquidity — payouts are never a problem.</p>
       </div>
       <div class="card">
-        <div class="card-icon">🔒</div>
+        <div class="card-icon"><i data-lucide="lock" class="lucide-icon"></i></div>
         <h3>Fair & Transparent</h3>
         <p>Clear rules, no hidden conditions, and a straightforward path from challenge to funded trader to payouts.</p>
       </div>
@@ -177,5 +178,6 @@
 </footer>
 
 <script src="assets/main.js"></script>
+<script>document.addEventListener("DOMContentLoaded",function(){lucide.createIcons()});</script>
 </body>
 </html>

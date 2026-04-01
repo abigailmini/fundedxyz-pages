@@ -11,6 +11,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
 </head>
 <body>
 
@@ -28,7 +29,7 @@
         <li><a href="https://fundedxyz.com" class="nav-cta">Start Challenge</a></li>
       </ul>
     </nav>
-    <button class="mobile-toggle" aria-label="Menu">☰</button>
+    <button class="mobile-toggle" aria-label="Menu"><i data-lucide="menu" class="lucide-icon"></i></button>
   </div>
 </header>
 
@@ -64,17 +65,17 @@
     <div class="section-subtitle fade-in">We exist to level the playing field for crypto traders everywhere</div>
     <div class="cards-grid fade-in">
       <div class="card">
-        <div class="card-icon">🎯</div>
+        <div class="card-icon"><i data-lucide="crosshair" class="lucide-icon"></i></div>
         <h3>Democratize Trading Capital</h3>
         <p>We believe great traders exist everywhere — not just in institutional settings. FundedXYZ provides up to $100K in trading capital to anyone who can prove their skill, regardless of background.</p>
       </div>
       <div class="card">
-        <div class="card-icon">🏗️</div>
+        <div class="card-icon"><i data-lucide="building-2" class="lucide-icon"></i></div>
         <h3>Built to Scale</h3>
         <p>Backed by venture capital and hedge fund partners, FundedXYZ isn't a fly-by-night operation. We're built with institutional-grade infrastructure and deep liquidity to support thousands of funded traders simultaneously.</p>
       </div>
       <div class="card">
-        <div class="card-icon">🤝</div>
+        <div class="card-icon"><i data-lucide="handshake" class="lucide-icon"></i></div>
         <h3>Trader-First Approach</h3>
         <p>Every decision we make starts with the question: "Is this good for our traders?" From our generous profit splits to our unlimited time policy, we align our success with yours.</p>
       </div>
@@ -112,5 +113,6 @@
 </footer>
 
 <script src="assets/main.js"></script>
+<script>document.addEventListener("DOMContentLoaded",function(){lucide.createIcons()});</script>
 </body>
 </html>

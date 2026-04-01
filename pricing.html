@@ -11,6 +11,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
 </head>
 <body>
 
@@ -28,7 +29,7 @@
         <li><a href="https://fundedxyz.com" class="nav-cta">Start Challenge</a></li>
       </ul>
     </nav>
-    <button class="mobile-toggle" aria-label="Menu">☰</button>
+    <button class="mobile-toggle" aria-label="Menu"><i data-lucide="menu" class="lucide-icon"></i></button>
   </div>
 </header>
 
@@ -132,9 +133,9 @@
   <div class="container" style="text-align:center;">
     <div class="section-title fade-in">All Plans Include</div>
     <div class="cards-grid fade-in" style="margin-top:40px;">
-      <div class="card"><div class="card-icon">⏱️</div><h3>Unlimited Time</h3><p>No deadlines. Trade at your own pace without pressure.</p></div>
-      <div class="card"><div class="card-icon">💸</div><h3>Fast USDT Payouts</h3><p>Receive your profits within 7 days via USDT.</p></div>
-      <div class="card"><div class="card-icon">📊</div><h3>Real-Time Dashboard</h3><p>Track your progress with detailed analytics and performance stats.</p></div>
+      <div class="card"><div class="card-icon"><i data-lucide="timer" class="lucide-icon"></i></div><h3>Unlimited Time</h3><p>No deadlines. Trade at your own pace without pressure.</p></div>
+      <div class="card"><div class="card-icon"><i data-lucide="banknote" class="lucide-icon"></i></div><h3>Fast USDT Payouts</h3><p>Receive your profits within 7 days via USDT.</p></div>
+      <div class="card"><div class="card-icon"><i data-lucide="bar-chart-3" class="lucide-icon"></i></div><h3>Real-Time Dashboard</h3><p>Track your progress with detailed analytics and performance stats.</p></div>
     </div>
   </div>
 </section>
@@ -156,5 +157,6 @@
 </footer>
 
 <script src="assets/main.js"></script>
+<script>document.addEventListener("DOMContentLoaded",function(){lucide.createIcons()});</script>
 </body>
 </html>

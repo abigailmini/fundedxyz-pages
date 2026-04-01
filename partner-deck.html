@@ -26,7 +26,7 @@
   font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px;
   margin-bottom: 20px;
 }
-.deck-badge::before { content: '🤝'; }
+.deck-badge::before { content: ''; display: none; }
 
 .hero-deck { padding: 140px 24px 80px; text-align: center; position: relative; overflow: hidden; }
 .hero-deck::before {
@@ -197,6 +197,7 @@
   .payout-info-grid { grid-template-columns: 1fr 1fr; }
 }
 </style>
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
 </head>
 <body>
 
@@ -215,14 +216,14 @@
         <li><a href="https://fundedxyz.com" class="nav-cta">Start Challenge</a></li>
       </ul>
     </nav>
-    <button class="mobile-toggle" aria-label="Menu">☰</button>
+    <button class="mobile-toggle" aria-label="Menu"><i data-lucide="menu" class="lucide-icon"></i></button>
   </div>
 </header>
 
 <!-- ============ HERO ============ -->
 <section class="hero-deck">
   <div class="container">
-    <div class="deck-badge">Partner Program</div>
+    <div class="deck-badge"><i data-lucide="handshake" class="lucide-icon" style="width:16px;height:16px;margin-right:6px;vertical-align:middle;"></i>Partner Program</div>
     <h1>Earn Recurring Commissions With <span class="gradient-text">FundedXYZ</span></h1>
     <p>Partner with the fastest-growing crypto prop trading firm and earn up to 20% on every challenge purchase — paid monthly in USDT.</p>
     <div class="hero-cta">
@@ -245,22 +246,22 @@
     <div class="section-subtitle fade-in">Crypto prop trading is booming — and we're leading the charge</div>
     <div class="why-grid fade-in">
       <div class="why-card">
-        <div class="why-icon">📈</div>
+        <div class="why-icon"><i data-lucide="trending-up" class="lucide-icon"></i></div>
         <h3>Explosive Market Growth</h3>
         <p>Crypto prop trading is one of the fastest-growing sectors in fintech. Demand for funded accounts is surging — and we're at the forefront.</p>
       </div>
       <div class="why-card">
-        <div class="why-icon">💰</div>
+        <div class="why-icon"><i data-lucide="wallet" class="lucide-icon"></i></div>
         <h3>$1M+ Monthly Sales</h3>
         <p>FundedXYZ processes over $1M in challenge sales every month. That's real volume your commissions are built on.</p>
       </div>
       <div class="why-card">
-        <div class="why-icon">✅</div>
+        <div class="why-icon"><i data-lucide="circle-check" class="lucide-icon"></i></div>
         <h3>Proven Payouts</h3>
         <p>We pay our traders — and our partners. Transparent, verifiable payouts with no hidden conditions or delays.</p>
       </div>
       <div class="why-card">
-        <div class="why-icon">🔥</div>
+        <div class="why-icon"><i data-lucide="flame" class="lucide-icon"></i></div>
         <h3>High Conversion Rates</h3>
         <p>Our competitive pricing, single-phase challenge, and up to 90% profit split make FundedXYZ an easy sell to any trading audience.</p>
       </div>
@@ -352,42 +353,42 @@
     <div class="section-subtitle fade-in">Everything you need to succeed as a FundedXYZ partner</div>
     <div class="benefits-grid fade-in">
       <div class="benefit-item">
-        <div class="benefit-icon">🔗</div>
+        <div class="benefit-icon"><i data-lucide="link" class="lucide-icon"></i></div>
         <div>
           <h4>Custom Referral Link</h4>
           <p>Your own unique tracking link with full attribution on every click and conversion.</p>
         </div>
       </div>
       <div class="benefit-item">
-        <div class="benefit-icon">📊</div>
+        <div class="benefit-icon"><i data-lucide="bar-chart-3" class="lucide-icon"></i></div>
         <div>
           <h4>Real-Time Dashboard</h4>
           <p>Track clicks, conversions, earnings, and payouts in real-time from your partner portal.</p>
         </div>
       </div>
       <div class="benefit-item">
-        <div class="benefit-icon">👤</div>
+        <div class="benefit-icon"><i data-lucide="user" class="lucide-icon"></i></div>
         <div>
           <h4>Dedicated Partner Manager</h4>
           <p>Get a personal point of contact for strategy, optimization, and priority support.</p>
         </div>
       </div>
       <div class="benefit-item">
-        <div class="benefit-icon">🎨</div>
+        <div class="benefit-icon"><i data-lucide="palette" class="lucide-icon"></i></div>
         <div>
           <h4>Marketing Materials</h4>
           <p>Professional banners, landing pages, email templates, and social media assets ready to use.</p>
         </div>
       </div>
       <div class="benefit-item">
-        <div class="benefit-icon">⚡</div>
+        <div class="benefit-icon"><i data-lucide="zap" class="lucide-icon"></i></div>
         <div>
           <h4>Priority Support</h4>
           <p>Skip the queue — partners get expedited responses on all support requests.</p>
         </div>
       </div>
       <div class="benefit-item">
-        <div class="benefit-icon">📢</div>
+        <div class="benefit-icon"><i data-lucide="megaphone" class="lucide-icon"></i></div>
         <div>
           <h4>Exclusive Promotions</h4>
           <p>Access to partner-only discount codes and limited-time offers to boost your conversions.</p>
@@ -404,22 +405,22 @@
     <div class="section-subtitle fade-in">Transparent, reliable, and on time — every month</div>
     <div class="payout-info-grid fade-in">
       <div class="payout-info-card">
-        <div class="payout-icon">💵</div>
+        <div class="payout-icon"><i data-lucide="banknote" class="lucide-icon"></i></div>
         <h4>Paid in USDT</h4>
         <p>All commissions are paid in USDT (TRC-20) — stable, fast, and globally accessible.</p>
       </div>
       <div class="payout-info-card">
-        <div class="payout-icon">📅</div>
+        <div class="payout-icon"><i data-lucide="calendar" class="lucide-icon"></i></div>
         <h4>Monthly Payouts</h4>
         <p>Commissions are calculated and paid out on the 1st of every month for the prior period.</p>
       </div>
       <div class="payout-info-card">
-        <div class="payout-icon">🚫</div>
+        <div class="payout-icon"><i data-lucide="ban" class="lucide-icon"></i></div>
         <h4>No Minimum Threshold</h4>
         <p>No minimum earning required to receive your payout. Earned $5? It's yours.</p>
       </div>
       <div class="payout-info-card">
-        <div class="payout-icon">🔍</div>
+        <div class="payout-icon"><i data-lucide="search" class="lucide-icon"></i></div>
         <h4>Transparent Tracking</h4>
         <p>Full visibility into every click, conversion, and dollar earned through your dashboard.</p>
       </div>
@@ -495,5 +496,6 @@
 </footer>
 
 <script src="assets/main.js"></script>
+<script>document.addEventListener("DOMContentLoaded",function(){lucide.createIcons()});</script>
 </body>
 </html>

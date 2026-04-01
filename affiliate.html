@@ -11,6 +11,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
 </head>
 <body>
 
@@ -28,7 +29,7 @@
         <li><a href="https://fundedxyz.com" class="nav-cta">Start Challenge</a></li>
       </ul>
     </nav>
-    <button class="mobile-toggle" aria-label="Menu">☰</button>
+    <button class="mobile-toggle" aria-label="Menu"><i data-lucide="menu" class="lucide-icon"></i></button>
   </div>
 </header>
 
@@ -98,10 +99,10 @@
   <div class="container">
     <div class="section-title fade-in">Why Partner With Us</div>
     <div class="cards-grid fade-in" style="margin-top:40px;">
-      <div class="card"><div class="card-icon">📊</div><h3>Real-Time Dashboard</h3><p>Track clicks, conversions, and earnings in real-time with our affiliate dashboard.</p></div>
-      <div class="card"><div class="card-icon">💰</div><h3>Monthly Payouts</h3><p>Commissions are paid monthly via USDT. No minimum threshold, no delays.</p></div>
-      <div class="card"><div class="card-icon">🎨</div><h3>Marketing Materials</h3><p>We provide banners, landing pages, and copy to help you convert your audience.</p></div>
-      <div class="card"><div class="card-icon">🤝</div><h3>Dedicated Support</h3><p>Get a dedicated affiliate manager to help optimize your campaigns and earnings.</p></div>
+      <div class="card"><div class="card-icon"><i data-lucide="bar-chart-3" class="lucide-icon"></i></div><h3>Real-Time Dashboard</h3><p>Track clicks, conversions, and earnings in real-time with our affiliate dashboard.</p></div>
+      <div class="card"><div class="card-icon"><i data-lucide="wallet" class="lucide-icon"></i></div><h3>Monthly Payouts</h3><p>Commissions are paid monthly via USDT. No minimum threshold, no delays.</p></div>
+      <div class="card"><div class="card-icon"><i data-lucide="palette" class="lucide-icon"></i></div><h3>Marketing Materials</h3><p>We provide banners, landing pages, and copy to help you convert your audience.</p></div>
+      <div class="card"><div class="card-icon"><i data-lucide="handshake" class="lucide-icon"></i></div><h3>Dedicated Support</h3><p>Get a dedicated affiliate manager to help optimize your campaigns and earnings.</p></div>
     </div>
   </div>
 </section>
@@ -125,5 +126,6 @@
 </footer>
 
 <script src="assets/main.js"></script>
+<script>document.addEventListener("DOMContentLoaded",function(){lucide.createIcons()});</script>
 </body>
 </html>

@@ -11,6 +11,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
 </head>
 <body>
 
@@ -28,7 +29,7 @@
         <li><a href="https://fundedxyz.com" class="nav-cta">Start Challenge</a></li>
       </ul>
     </nav>
-    <button class="mobile-toggle" aria-label="Menu">☰</button>
+    <button class="mobile-toggle" aria-label="Menu"><i data-lucide="menu" class="lucide-icon"></i></button>
   </div>
 </header>
 
@@ -85,32 +86,32 @@
     <div class="section-title fade-in">Payout Details</div>
     <div class="cards-grid fade-in" style="margin-top:40px;">
       <div class="card">
-        <div class="card-icon">💎</div>
+        <div class="card-icon"><i data-lucide="gem" class="lucide-icon"></i></div>
         <h3>USDT Payments</h3>
         <p>All payouts are processed in USDT (Tether) — the most widely used stablecoin. Fast, reliable, and universally accepted across crypto exchanges.</p>
       </div>
       <div class="card">
-        <div class="card-icon">📈</div>
+        <div class="card-icon"><i data-lucide="trending-up" class="lucide-icon"></i></div>
         <h3>80-90% Profit Split</h3>
         <p>Start with an 80% profit split and scale up to 90% as you prove your consistency. The more you trade, the more you earn.</p>
       </div>
       <div class="card">
-        <div class="card-icon">🔒</div>
+        <div class="card-icon"><i data-lucide="lock" class="lucide-icon"></i></div>
         <h3>Backed by Real Capital</h3>
         <p>We're funded by VC and hedge fund capital, ensuring every payout is backed by real liquidity. Your earnings are always safe with us.</p>
       </div>
       <div class="card">
-        <div class="card-icon">⚡</div>
+        <div class="card-icon"><i data-lucide="zap" class="lucide-icon"></i></div>
         <h3>7-Day Processing</h3>
         <p>From request to receipt, payouts are processed within 7 days. No unnecessary delays, no excuses.</p>
       </div>
       <div class="card">
-        <div class="card-icon">🚫</div>
+        <div class="card-icon"><i data-lucide="ban" class="lucide-icon"></i></div>
         <h3>No Hidden Fees</h3>
         <p>What you see is what you get. No processing fees, no deductions, no surprises. Your profit split is exactly as stated.</p>
       </div>
       <div class="card">
-        <div class="card-icon">♾️</div>
+        <div class="card-icon"><i data-lucide="infinity" class="lucide-icon"></i></div>
         <h3>Unlimited Payouts</h3>
         <p>There's no cap on how much you can earn or withdraw. Consistent traders can request payouts as often as they'd like.</p>
       </div>
@@ -137,5 +138,6 @@
 </footer>
 
 <script src="assets/main.js"></script>
+<script>document.addEventListener("DOMContentLoaded",function(){lucide.createIcons()});</script>
 </body>
 </html>

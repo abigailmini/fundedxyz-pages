@@ -139,6 +139,17 @@ img { max-width: 100%; height: auto; }
   background: rgba(108,92,231,0.15); display: flex; align-items: center; justify-content: center;
   font-size: 1.4rem; margin-bottom: 16px;
 }
+.card-icon .lucide-icon { width: 24px; height: 24px; color: var(--accent-light); stroke-width: 2; }
+
+/* Lucide icon global styles */
+.lucide-icon { width: 22px; height: 22px; color: var(--accent-light); stroke-width: 2; }
+.lucide-stat { width: 32px; height: 32px; color: var(--gold); }
+.lucide-star { width: 18px; height: 18px; color: var(--gold); fill: var(--gold); }
+.mobile-toggle .lucide-icon { width: 24px; height: 24px; color: var(--text-primary); }
+.why-icon .lucide-icon { width: 28px; height: 28px; color: var(--accent-light); }
+.benefit-icon .lucide-icon { width: 28px; height: 28px; color: var(--accent-light); }
+.payout-icon .lucide-icon { width: 28px; height: 28px; color: var(--accent-light); }
+.testimonial-stars { display: flex; gap: 4px; margin-bottom: 12px; }
 .card h3 { font-size: 1.2rem; font-weight: 700; margin-bottom: 8px; }
 .card p { color: var(--text-secondary); font-size: 0.95rem; }
 

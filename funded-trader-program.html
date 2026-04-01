@@ -14,6 +14,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
 </head>
 <body>
 
@@ -31,7 +32,7 @@
         <li><a href="https://fundedxyz.com" class="nav-cta">Start Challenge</a></li>
       </ul>
     </nav>
-    <button class="mobile-toggle" aria-label="Menu">☰</button>
+    <button class="mobile-toggle" aria-label="Menu"><i data-lucide="menu" class="lucide-icon"></i></button>
   </div>
 </header>
 
@@ -53,32 +54,32 @@
     <div class="section-subtitle fade-in">Everything you need to trade crypto professionally without risking your own money</div>
     <div class="cards-grid fade-in">
       <div class="card">
-        <div class="card-icon">🎯</div>
+        <div class="card-icon"><i data-lucide="crosshair" class="lucide-icon"></i></div>
         <h3>Simple Evaluation</h3>
         <p>One challenge. One set of rules. No Phase 2, no verification, no multi-month evaluations. Pass once and you're in the funded trader program.</p>
       </div>
       <div class="card">
-        <div class="card-icon">💰</div>
+        <div class="card-icon"><i data-lucide="wallet" class="lucide-icon"></i></div>
         <h3>Up to $100K Capital</h3>
         <p>Choose from $5K to $100K account sizes. Start small and scale up, or go big from the start. The choice is yours.</p>
       </div>
       <div class="card">
-        <div class="card-icon">📊</div>
+        <div class="card-icon"><i data-lucide="bar-chart-3" class="lucide-icon"></i></div>
         <h3>80-90% Profit Share</h3>
         <p>Keep the vast majority of your trading profits. Our funded trader program offers one of the highest profit splits in the industry.</p>
       </div>
       <div class="card">
-        <div class="card-icon">⏱️</div>
+        <div class="card-icon"><i data-lucide="timer" class="lucide-icon"></i></div>
         <h3>No Time Limits</h3>
         <p>Trade at your own pace. Our funded trader program doesn't pressure you with arbitrary deadlines. Take as long as you need.</p>
       </div>
       <div class="card">
-        <div class="card-icon">⚡</div>
+        <div class="card-icon"><i data-lucide="zap" class="lucide-icon"></i></div>
         <h3>Fast Onboarding</h3>
         <p>Sign up, choose your challenge, and start trading immediately. No lengthy application process, no interviews, no waiting periods.</p>
       </div>
       <div class="card">
-        <div class="card-icon">🔄</div>
+        <div class="card-icon"><i data-lucide="refresh-cw" class="lucide-icon"></i></div>
         <h3>Scale Your Career</h3>
         <p>Start as a Junior Trader and rise through the ranks. Each successful funding round gives you momentum for the next level.</p>
       </div>
@@ -145,5 +146,6 @@
 </footer>
 
 <script src="assets/main.js"></script>
+<script>document.addEventListener("DOMContentLoaded",function(){lucide.createIcons()});</script>
 </body>
 </html>
